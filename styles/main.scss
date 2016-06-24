@@ -1,0 +1,75 @@
+@include: "_form";
+
+* {
+/*   border: 1px solid black; */
+}
+
+form {
+  position: relative;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 140px;
+  border:4px solid #FFB03B;
+  border-radius: 16px;
+  padding: 15px;
+  background: #FFF0A5;
+}
+label {
+  font-family: 'Lato';
+}
+input {
+  font-family: 'Lato';
+  font-size: 16px;
+  border: 6px; 
+}
+#first {
+  
+}
+#second {
+  
+}
+.display {
+  width: 60px;
+  height: 60px;
+  border-bottom: 2px solid red;
+  margin: 0 auto;
+  margin-top: 55px;
+  padding: 8px;
+  text-align: center;
+}
+h1 {
+  font-family: 'Lato';
+  color: #468966;
+}
+p {
+  font-family: 'Lato';
+  font-size: 16px;
+  color: #468966;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.first {
+  margin: 10px 90px;
+  width: 25%;
+}
+.second {
+  margin: 10px 90px;
+  width: 25%;
+}
+.plus {
+  margin-left: 50px;
+}
+#button {
+  font-family: 'Lato';
+  font-size: 16px;
+  width: 150px;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid #FFB03B;
+  background-color: #B64926;
+  color: white;
+  margin: 0 auto;
+/*   margin-top: 5%; 
+  margin-bottom: 15%; */
+
+}
