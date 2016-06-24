@@ -1,24 +1,23 @@
-// map .first input #num1 to num1 parameter
-// 
 
-function add( num1, num2 ){
-  var sum = num1 + num1;
-  return sum;
-}
 
-// on click, `#button` calls `add()`, 
-// passing in the values of `#num1` and `#num2` as its arguments
+document.querySelector('button').onclick = function(){
 
-// inject the return value into the `h1` of `.display`
+  // console.log( 'travis' );
+  
+  var num1 = document.querySelector( '#num1' ).value;
+  var num2 = document.querySelector( '#num2' ).value;
 
-// console.dir(document.querySelector('#button'));
+  if ( isNaN( num1 ) ) {
+    alert('Numbers Only, Please');
 
-document.querySelector('#button').onclick = function(){
-  console.log(
-      document.querySelector('#num1')
-    + document.querySelector('#num2')
-  )
+  } else {
+
+    sum = Number( num1 ) + Number( num2 );
+    
+    document.querySelector('.display').innerHTML = sum;
+  }
+  
+  console.log( sum );
 };
 
 
-console.log( document.querySelector('#num2') );
