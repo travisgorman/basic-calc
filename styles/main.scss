@@ -1,20 +1,14 @@
+@import '_variables';
+
 body {
+  background-color: $bg;
+  margin: 0;
+  padding: 0;
+}
 
-  input {
-
-    #num1 {
-
-    }
-    #num2 {
-
-    }    
-  }
-  .add {
-
-  }
-  .display {
-    width: 100px;
-    height: 100px;
-    background-color: #253238;
-  }
+#num1 {
+  width: 45px;
+}
+.add {
+  font-size: 1.5em;
 }

@@ -1,6 +1,12 @@
-body .display {
-  width: 100px;
-  height: 100px;
-  background-color: #253238; }
+body {
+  background-color: #263238;
+  margin: 0;
+  padding: 0; }
+
+#num1 {
+  width: 45px; }
+
+.add {
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */
